@@ -2,11 +2,11 @@
 
 ## Introduction
 
-This is the branch for the [Github pages for the DHGMS Solutions project documentation](http://dhgms-solutions.github.com/).
+This is the branch for the [Github pages for the DHGMS Solutions project documentation](http://dhgms-solutions.github.io/).
 
 ## Viewing the documentation
 
-The documentation can be found at http://dhgms-solutions.github.com/
+The documentation can be found at http://dhgms-solutions.github.io/
 
 ## Contributing to the documentation
 
