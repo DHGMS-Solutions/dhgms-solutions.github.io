@@ -10,7 +10,7 @@ layout: default
 <h2>Projects</h2>
 <ul>
   <li><a href="http://dhgms-solutions.github.com/adsync/">AD Sync</a></li>
-  <li><a href="http://dhgms-solutions.github.com/nucleotide/">AppReliance</a></li>
+  <li><a href="http://dhgms-solutions.github.com/appreliance/">AppReliance</a></li>
   <li><a href="http://dhgms-solutions.github.com/datamanager/">Data Manager</a></li>
   <li><a href="http://dhgms-solutions.github.com/kettle/">Kettle</a></li>
   <li><a href="http://dhgms-solutions.github.com/jobmonitoringsystem/">Job Monitoring System</a></li>
