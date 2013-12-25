@@ -15,14 +15,14 @@
         <nav>
             <ul class="firstlevel">
                 <li class="firstlevel">
-                    <i class="icon-home"><!-- --></i>
+                    <i class="fa fa-icon-home"><!-- --></i>
                     <a rel="home" href="/" lang="en" dir="ltr">
                         Home
                     </a>
                 </li>
                 {% for project in site.data.projects %}
                 <li>
-                    <i class="icon-bookmark"><!-- --></i><a href="https://dhgms-solutions.github.io/{{ project.folder }}/" title="{{ project.title }}" lang="en" dir="ltr">
+                    <i class="fa fa-bookmark"><!-- --></i><a href="https://dhgms-solutions.github.io/{{ project.folder }}/" title="{{ project.title }}" lang="en" dir="ltr">
                         {{ project.name }}
                     </a>
                 </li>
@@ -31,7 +31,7 @@
         </nav>
         &#xA9;Copyright 2000-{{ site.time | date: "%Y" }}  DHGMS Solutions. All Rights Reserved. Use of the site is subject to <a href="/help/legal" lang="en" dir="ltr">legal information</a>.<br />
         Site is best viewed in a <abbr title="Cascading Style Sheets">CSS</abbr> 3.0, <abbr title="Hypertext Markup Language">HTML</abbr>5 compliant <a href="/help/browsers" lang="en" dir="ltr">browser</a>.<br />
-        <a href="http://creativecommons.org/licenses/by-sa/3.0/" lang="en" dir="ltr" rel="license"><img src="/img/somerights30.png" alt="Unless otherwise stated, work on this site is licensed under a Creative Commons License." title="Unless otherwise stated, work on this site is licensed under a Creative Commons License." /></a><a href="https://github.com/DHGMS-Solutions/dhgms-solutions.github.io/blob/master/{{ page.path }}" title="The source code for this page can be found on github"><i class="fa-code"><!-- --></i></a>
+        <a href="http://creativecommons.org/licenses/by-sa/3.0/" lang="en" dir="ltr" rel="license"><img src="/img/somerights30.png" alt="Unless otherwise stated, work on this site is licensed under a Creative Commons License." title="Unless otherwise stated, work on this site is licensed under a Creative Commons License." /></a><a href="https://github.com/DHGMS-Solutions/dhgms-solutions.github.io/blob/master/{{ page.path }}" title="The source code for this page can be found on github"><i class="fa fa-code"><!-- --></i></a>
     </footer>
 
 </body>
