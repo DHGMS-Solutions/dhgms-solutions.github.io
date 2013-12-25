@@ -6,6 +6,31 @@
   </head>
   <body>
     {{ content }}
-    <footer><a href="https://github.com/DHGMS-Solutions/dhgms-solutions.github.io/blob/master/{{ page.path }}" title="The source code for this page can be found on github"><i class="fa-code" /></a></footer>
+      <footer class="footercontainer">
+          <nav>
+              <ul class="firstlevel">
+                  <li class="firstlevel">
+                      <i class="icon-home"><!-- --></i>
+                      <a rel="home" href="/" lang="en" dir="ltr">
+                          Home
+                      </a>
+                  </li>
+                  {% for project in site.data.projects %}
+                  <li class="firstlevel">
+                      <i class="icon-bookmark"><!-- --></i><a href="/members" title="Group Members" lang="en" dir="ltr">Members</a>
+                  </li>
+                  <li>
+                      <a href="https://dhgms-solutions.github.io/{{ project.folder }}/">
+                          {{ project.name }}
+                      </a>
+                  </li>
+                  {% endfor %}
+              </ul>
+          </nav>
+          &#xA9;Copyright 2000-{{ page.date | date: "%Y" }}  DHGMS Solutions. All Rights Reserved. Use of the site is subject to <a href="/help/legal" lang="en" dir="ltr">legal information</a>.<br />
+          Site is best viewed in a <abbr title="Cascading Style Sheets">CSS</abbr> 3.0, <abbr title="Hypertext Markup Language">HTML</abbr>5 compliant <a href="/help/browsers" lang="en" dir="ltr">browser</a>.<br />
+          <a href="http://creativecommons.org/licenses/by-sa/3.0/" lang="en" dir="ltr" rel="license"><img src="/img/somerights30.png" alt="Unless otherwise stated, work on this site is licensed under a Creative Commons License." title="Unless otherwise stated, work on this site is licensed under a Creative Commons License." /></a><a href="https://github.com/DHGMS-Solutions/dhgms-solutions.github.io/blob/master/{{ page.path }}" title="The source code for this page can be found on github"><i class="fa-code"><!-- --></i></a>
+      </footer>
+
   </body>
 </html>

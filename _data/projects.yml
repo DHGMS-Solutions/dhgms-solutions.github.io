@@ -1,0 +1,16 @@
+- name: AD Sync
+  folder: adsync
+- name: AppReliance
+  folder: datamanager
+- name: Data Manager
+  folder: datamanager
+- name: Kettle
+  folder: kettle
+- name: Job Helper
+  folder: jobhelper
+- name: Nucleotide
+  folder: nucleotide
+- name: TPL Helper
+  folder: tplhelper
+- name: WSUS Smart Approve
+  folder: wsussmartapprove
