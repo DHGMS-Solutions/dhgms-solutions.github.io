@@ -17,13 +17,11 @@
                       </a>
                   </li>
                   {% for project in site.data.projects %}
-                  <li class="firstlevel">
-                      <i class="icon-bookmark"><!-- --></i><a href="/members" title="Group Members" lang="en" dir="ltr">Members</a>
-                  </li>
                   <li>
-                      <a href="https://dhgms-solutions.github.io/{{ project.folder }}/">
-                          {{ project.name }}
-                      </a>
+                      <i class="icon-bookmark">
+                          <!-- --><a href="https://dhgms-solutions.github.io/{{ project.folder }}/" title="{{ project.title }}" lang="en" dir="ltr">
+                              {{ project.name }}
+                          </a>
                   </li>
                   {% endfor %}
               </ul>
