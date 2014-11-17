@@ -27,6 +27,7 @@ layout: default
 
 <h2>General Information</h2>
 <ul>
-  <li><a href="contibuting.md">Contributing to projects</a></li>
-  <li><a href="devguidelines.md">General Development Guidelines</a></li>
+  <li><a href="devstates">Description of Project Development States</a></li>
+  <li><a href="contibuting">Contributing to projects</a></li>
+  <li><a href="devguidelines">General Development Guidelines</a></li>
 </ul>
