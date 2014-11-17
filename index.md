@@ -19,7 +19,7 @@ layout: default
                     <i class="fa fa-bookmark"><!-- --></i><a href="http://dhgms-solutions.github.io/{{ project.folder }}/" title="{{ project.title }}" lang="en" dir="ltr">
                         {{ project.name }}
                     </a>
-                  <td>
+                  </td>
                   <td>{{ project.devstate }}</td>
                 </tr>
                 {% endfor %}
