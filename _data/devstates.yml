@@ -1,0 +1,25 @@
+- name: poc
+  longname: Proof Of Concept
+  description: The project has been pieced together as a proof of concept on how to carry out one or more tasks
+  movingforward: This will depend on the project. It could change into a release library or remain a proof of concept. It will typically remain a proof of concept if it is merely showing how to combine other libraries together, or how to solve a problem using a specific library.
+- name: planopening
+  longname: Plan to Open Source
+  description: This is a project that is currently close sourced, for which there is a desire to open source.
+  movingforward: This should be open sourced.
+- name: active
+  longname: Active Development
+  description: There is active development taking place on this project.
+- name: concept
+  longname: Concept
+  description: At this point the project is at a concept and planning stage. Some of these projects represent problems that may need research. It could be a use case that has been recognized that can be used as an educational proof of concept.
+  movingforward: This should move to active development or proof of concept.
+- name: maintained
+  longname: Maintained
+  description: This project is currently being supported, but has no new features being actively developed.
+  movingforward: Depending on what happens with the project it may move back to active development, or be phased out and moved to end of life.
+- name: endoflife
+  longname: End Of Life
+  description: This project is no longer supported.
+  movingforward: There is no commitment to maintain this project. Any future changes will depend purely on circumstances.
+  
+  
