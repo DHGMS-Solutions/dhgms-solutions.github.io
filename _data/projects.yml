@@ -1,16 +1,30 @@
 - name: AD Sync
   folder: adsync
+  devstate: planopening
 - name: AppReliance
-  folder: datamanager
+  folder: appreliance
+  devstate: poc
 - name: Data Manager
   folder: datamanager
+  devstate: active
 - name: Kettle
   folder: kettle
+  devstate: concept
 - name: Job Helper
   folder: jobhelper
+  devstate: active
 - name: Nucleotide
   folder: nucleotide
+  devstate: active
+- name: Smug Git
+  folder: smuggit
+  devstate: poc
 - name: TPL Helper
   folder: tplhelper
+  devstate: active
+- name: Whipstaff
+  folder: whipstaff
+  devstate: poc
 - name: WSUS Smart Approve
   folder: wsussmartapprove
+  devstate: maintenance
