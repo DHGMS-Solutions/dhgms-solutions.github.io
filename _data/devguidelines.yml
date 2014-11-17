@@ -1,0 +1,12 @@
+- id: minreflection
+  rule: The use of reflection should be minimized
+- id: enus
+  rule: Spelling of code and documentation should be in English United States (en-US)
+- id: stylecop
+  rule: The latest version of stylecop is ALWAYS used for code formatting
+- id: di
+  rule: Dependency Injection should be minimized
+- id: resharper
+  rule: ReSharper should be used in combination with the stylecop plugin
+- id: futureslib
+  rule: New features should be placed in a *Project*.Futures library
