@@ -8,14 +8,25 @@ layout: default
 <p>This is the home of documentation for our open source projects.</p>
 
 <h2>Projects</h2>
-<ul>
-  <li><a href="http://dhgms-solutions.github.com/adsync/">AD Sync</a></li>
-  <li><a href="http://dhgms-solutions.github.com/appreliance/">AppReliance</a></li>
-  <li><a href="http://dhgms-solutions.github.com/datamanager/">Data Manager</a></li>
-  <li><a href="http://dhgms-solutions.github.com/kettle/">Kettle</a></li>
-  <li><a href="http://dhgms-solutions.github.com/jobmonitoringsystem/">Job Monitoring System</a></li>
-  <li><a href="http://dhgms-solutions.github.com/nucleotide/">Nucleotide</a></li>
-  <li><a href="http://dhgms-solutions.github.com/tplhelper/">TPL Helper</a></li>
-  <li><a href="http://dhgms-solutions.github.com/wsussmartapprove/">WSUS Smart Approve</a></li>
-</ul>
+<table>
+<tr>
+  <th>Project Name</th>
+  <th>Development State</th>
+</tr>
+                {% for project in site.data.projects %}
+                <tr>
+                  <td>
+                    <i class="fa fa-bookmark"><!-- --></i><a href="http://dhgms-solutions.github.io/{{ project.folder }}/" title="{{ project.title }}" lang="en" dir="ltr">
+                        {{ project.name }}
+                    </a>
+                  <td>
+                  <td>{{ project.devstate }}</td>
+                </tr>
+                {% endfor %}
+</table>
 
+<h2>General Information</h2>
+<ul>
+  <li><a href="contibuting.md">Contributing to projects</a></li>
+  <li><a href="devguidelines.md">General Development Guidelines</a></li>
+</ul>
